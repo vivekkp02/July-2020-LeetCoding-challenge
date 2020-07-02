@@ -36,7 +36,6 @@ class Solution {
         List<List<Integer>> popList = new ArrayList<>();
         if(root == null)
             return popList;
-        List<List<Integer>> retList = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         while(!queue.isEmpty()){
