@@ -38,7 +38,7 @@ class Solution {
     public TreeNode buildTree(int[] inorder, int inStart, int inEnd, int[] postorder, int postStart, int postEnd) {
 		if (inStart > inEnd || postStart > postEnd)
 		    return null;
-        int rootValue = postorder[postEnd];
+    i	nt rootValue = postorder[postEnd];
 		TreeNode root = new TreeNode(rootValue);
         int k = 0;
 		for (int i = 0; i < inorder.length; i++) {
